@@ -1,43 +1,67 @@
-h1 {
-    font-size: 36px;
-    color:gray;
+body {
+  background-color: lightgrey;
+  font-family: 'Playfair display';
+}
+.main-menu {
+  background: hsla(193, 68%, 23%, 1);
+  color: white;
+  text-align: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  line-height: 3rem;
+  width: 100%;
+}
+
+h1, h2 {
+  font-size: 1.8rem;
+  font-family: Montserrat;
+}
+
+a {
+  font-size: 1.1rem;
+  color: hsla(286, 52%, 21%, 1);
+  background-color: hsla(41, 74%, 53%, 0.9);
+  border-radius: 10px;
+  padding: .7%;
+  margin: 2%;
+  font-family: Montserrat;
+  text-decoration: none;
+}
+
+.primary-content {
+  line-height: 250%;
+  padding: 2%;
+}
+
+
+img {
+  width: 100%;
+}
+
+h2 {
+ color: hsla(286, 52%, 21%, 1);
+ line-height: 120%;
+}
+
+
+a:hover {
+  background-color: lightgrey;
+}
+
+@media (min-width: 768px) {
+  .main-menu {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    padding: 2%;
+    margin: 0;
   }
-  h1,
-  figcaption{font family: „Lucida Grande”,”Lucida Sans Unicode”,”Lucida Sans”,Geneva,Arial,sans-serif;
-    text-align: center;
-  }figcaption {
-    font-size: 11px;
+  .primary-content {
+    float: right;
+    width: 70%;
   }
-    img {
-      height:auto;
-      width:100%;
-    }
-  article {
-    max-width:700px;
+  img {
+   width: 60%;
   }
-  article {
-    padding:10px;
-    max-width:700px;
-  }
-  article{
-    margin-left:auto;
-    margin-right:auto;
-    max-width:700px;
-      padding:10px;
-  }
-  p{ color: rgba(0,0,0,.8);
-    font-family: Georgia,Cambria,”Times New Roman”,Times,serif;
-    font-size: 21px;
-    letter-spacing: -.003em;
-    line-height: 1.58;
-  
-    
-  }
-  a{
-    color:gray;
-  }
-  a:
-  hover
-  {
-   red;
-  }
+
+}  
